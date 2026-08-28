@@ -1,0 +1,94 @@
+@use "../../../styles/base/variable.scss" as *;
+
+.sidebar {
+  height: 100dvh;
+  width: 200px;
+  background-color: $light-gray;
+  border-radius: 0 $border-radius $border-radius 0;
+  overflow: hidden;
+  padding: 10px 16px;
+  position: relative;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .logo-container {
+    background-color: transparent;
+    & > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: transparent;
+      & > img {
+        height: 40px;
+        width: 40px;
+        background-color: transparent;
+      }
+
+      & > h4 {
+        background-color: transparent;
+        font-size: larger;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .menu-section {
+    & > p {
+      font-size: 18px;
+      padding: 10px 0;
+      color: $dark-gray;
+    }
+
+    & > .link-curved {
+      width: 16px;
+      height: 20px;
+      background-color: $medium-green;
+    }
+
+    & > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .link-col {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 17px;
+        font-weight: 500;
+        color: $dark-gray;
+        text-decoration: none;
+
+        & > .icon {
+          font-size: 22px;
+          color: $dark-gray;
+        }
+
+        & > .link-curved {
+          width: 8px;
+          height: 35px;
+          background-color: $medium-green;
+          border-radius: 0 20px 20px 0;
+          position: absolute;
+          left: 0;
+          visibility: hidden;
+        }
+      }
+
+      & > .active {
+        color: $dark-green !important;
+
+        & > .link-curved {
+          visibility: visible;
+        }
+
+        & > .icon {
+          color: $dark-green !important;
+        }
+      }
+    }
+  }
+}

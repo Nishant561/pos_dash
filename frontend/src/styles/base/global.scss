@@ -1,0 +1,15 @@
+@use "../../styles/base/variable.scss" as *;
+
+@font-face {
+  font-family: "sans-plus";
+  src: url("../../assets/fonts/PlusJakartaSans-All_weight.ttf")
+    format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-plus";
+}
+
