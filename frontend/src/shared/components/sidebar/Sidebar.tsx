@@ -10,6 +10,8 @@ function Sidebar() {
       <MenuSection />
       <MenuSection />
       <MenuSection />
+      <MenuSection />
+      <MenuSection />
     </div>
   );
 }

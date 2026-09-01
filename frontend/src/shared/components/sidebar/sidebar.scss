@@ -6,15 +6,21 @@
   background-color: $light-gray;
   border-radius: 0 $border-radius $border-radius 0;
   overflow: hidden;
-  padding: 10px 16px;
+  padding: 0px 10px 16px;
   position: relative;
+  overflow: hidden;
   overflow-y: auto;
   &::-webkit-scrollbar {
     display: none;
   }
 
   .logo-container {
-    background-color: transparent;
+    background-color: $light-gray;
+    position: sticky;
+    top: 0;
+    margin: -10px -16px 0;
+    padding: 10px 16px;
+    z-index: 1;
     & > div {
       display: flex;
       justify-content: center;
