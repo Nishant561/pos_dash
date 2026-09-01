@@ -1,0 +1,58 @@
+@use "../../../styles/base/variable.scss" as *;
+
+.top-bar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+
+  .top-bar-input-container {
+    display: flex;
+    align-self: center;
+    border: 1px solid $neutral-black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 3px 6px;
+    width: 50%;
+    gap: 8px;
+    & > input {
+      border: none;
+      flex-grow: 2;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: $neutral-black;
+
+    .topbar-right-item-profile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: $dark-gray;
+      & > img {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid $neutral-black;
+        object-position: center;
+        object-fit: cover;
+      }
+      & > div {
+        & > p:first-child {
+          font-weight: bold;
+          font-size: 16px;
+          color: $neutral-black;
+        }
+      }
+    }
+  }
+}
