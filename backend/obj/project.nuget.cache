@@ -1,8 +1,30 @@
 {
   "version": 2,
-  "dgSpecHash": "N6t2gXzKtSY=",
+  "dgSpecHash": "uyvlYEfMI1A=",
   "success": true,
-  "projectFilePath": "/home/nishant560/Music/dashboard/backend/backend.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\Angel\\OneDrive\\Documents\\source\\repo\\pos_dash\\backend\\backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Angel\\.nuget\\packages\\carter\\10.0.0\\carter.10.0.0.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\carter.analyzers\\10.0.0\\carter.analyzers.10.0.0.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.12\\microsoft.aspnetcore.http.2.3.12.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\microsoft.codeanalysis.common\\4.14.0\\microsoft.codeanalysis.common.4.14.0.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.14.0\\microsoft.codeanalysis.csharp.4.14.0.nupkg.sha512",
+    "C:\\Users\\Angel\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.0\\microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Http will not be pruned. This package is automatically available and does not need to be referenced explicitly. Remove the PackageReference item.",
+      "projectPath": "C:\\Users\\Angel\\OneDrive\\Documents\\source\\repo\\pos_dash\\backend\\backend.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Angel\\OneDrive\\Documents\\source\\repo\\pos_dash\\backend\\backend.csproj",
+      "libraryId": "Microsoft.AspNetCore.Http",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
